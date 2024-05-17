@@ -1,0 +1,97 @@
+ -- PAUSE SCREEN DEMO: Nora --
+
+Name
+Type
+MP Cost
+ST Cost
+Super Cost
+Input
+Captions
+
+Anti-Air
+UniversalAttack
+0
+0
+0
+→ + A
+A high-hitting overhead attack that is effective against airborne enemies.
+
+Overhead
+UniversalAttack
+0
+0
+0
+→ + C
+An overhead attack that can surprise a cautious opponent.
+
+Toe Stepper
+CommandNormal
+0
+0
+0
+→ + B
+A tricky low attack.
+
+Ruby Rain
+CommandNormal
+10
+0
+0
+(↓ + C)/(D) (in air)
+A divekick that can apply pressure from the air.
+
+Ruby Cutter
+SpecialMove
+10
+0
+0
+← + C
+A single-hit projectile that travels horizontally across the screen.
+
+Ruby Rising
+SpecialMove
+10
+0
+0
+↓ + D
+A rising attack that can turn the tables on aggressive opponents.
+
+Ruby Flash
+SpecialMove
+10
+0
+0
+→ + D
+A fast and far-reaching sword thrust to catch opponents off guard.
+
+Rogue's Approach
+SpecialMove
+10
+0
+0
+← + D
+A jumping attack to apply pressure on the opposing player.
+
+Rogue's Approach: Retreat
+SpecialMove
+0
+0
+0
+No input
+Retreat from the opponent by leaping far back.
+
+Rogue's Approach: Climb
+SpecialMove
+0
+0
+0
+↑
+Continue the jumping attack's onslaught with a high jump attack.
+
+Blood Red Divide
+Super
+0
+0
+100
+→ + AD
+A horizontal-traveling, single-hit projectile that packs a punch.

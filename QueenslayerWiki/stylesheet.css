@@ -1,0 +1,94 @@
+/* html { */
+  /* background-color: #000000; */
+/* } */
+
+body {
+	width: 90%;
+	max-width: 1500px;
+	min-width: 350px;
+	margin: auto;
+	background-image: url("images/bg.png");
+	background-color: rgba(0, 0, 0, 0);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	opacity:0.9;
+	font-family: Verdana;
+}
+
+h1{
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+h2{
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+h3{
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+p{
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 1;
+}
+
+table {
+  margin: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 750px;
+  max-width: 90%;
+  opacity: 1;
+}
+
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 25%;
+  font-size: .85em;
+}
+
+.bodyDiv {
+  padding-top: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.header {
+	padding-top: 5px;
+	/* background-color: #ff0000; */
+}
+
+.headerLogo {
+	width: 100%;
+	max-width: 350px;
+}
+
+.footer {
+}
+
+.footerLogo {
+  width: 100%;
+}
+
+.footerSocialMediaIcon {
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 20%;
+}

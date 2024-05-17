@@ -3,19 +3,250 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title> QueenslayerWiki </title>
-    <link rel="stylesheet" type="text/css" href="homePage.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <link rel="icon" href="images/icon.png">
   </head>
-  <body width="30" height="30">
-    <a href="index.html"> <img src="images/MainLogo.png" title="Return to homepage"></a>
-    <h1>Coming soon!</h1>
-  	<p style="padding-left: 15px; padding-right: 15px"> 
-  	  While we are hard at work developing and polishing Queenslayer, we unfortunately do not currently have the time required to work on this website. 
-  	  With time, we hope to update it to act as a comprehensive resource for all information related to the game. 
-  	  <br>
-  	  In the meantime, feel free to join our <a href="https://discord.gg/HdMmzCRDEf">Discord server</a> or follow our <a target=blank href="https://twitter.com/Queenslayergame">Twitter page</a> for future news and updates!
-  	  <br>
-  	  - Team Hithub
-  	</p>
+  <body>
+	<div class="header">
+		<a href="index.html"> <img src="images/MainLogo.png" class="headerLogo" title="Return to homepage"></a>
+	</div>
+	<div class="bodyDiv">
+		<i> <h2> This page is using a temporary layout of the website that will be refined at a later date. 
+		Individual pages for gameplay features, character information and more will be added. </h2> </i>
+		<h1> Version 0.1 download </h1>
+		<p> 
+		We're thrilled to announce that the playable alpha demo for Queenslayer is now LIVE! 
+		Included is an alpha version of our first character, Nora, who can be played in both versus and training mode. 
+		It is not the latest version of the game, as it does not include the second playable character, the archer Deirdre.
+		We plan to update the alpha over time to include new features such as Netplay, new characters, new stages and mechanics. 
+		We are still early in development, so your feedback is invaluable in shaping the future of our game. 
+		<br> <br>
+		<a href = "https://github.com/HitHubGames/Queenslayer" target="blank"> Download now and let us know what you think! </a>
+
+		</p>
+		<h1> About </h1>
+		<p> 
+			Queenslayer is an indie fighting game emphasizing fast, arcadey gameplay and unique RPG system mechanics such as item upgrades, varied stat allotments, and mana/stamina meters.
+			The game is still in development, with news and updates being shared to our <a target=blank href="https://twitter.com/Queenslayergame">Twitter page</a> and <a href="https://discord.gg/HdMmzCRDEf">Discord server</a>.
+		</p>
+		
+		<h1> Gameplay </h1>		
+		<h2> UI Guide </h2>
+		<a href = "images/uiDemonstration.png" target="blank"> <img src="images/uiDemonstration.png" style = "padding-left: 15px; width: 750px; max-width: 90%; margin: auto;"> </a> 
+		<ol> 
+			<li> Health Bar </li>
+			<li> Timer </li>
+			<li> Mana Bar </li>
+			<li> Stamina Bar </li>
+			<li> Burst Bar </li>
+			<li> Super Bar </li>
+			<li> Item Panels </li>
+		<li> Round Win Displays </li>
+		</ol>
+		<h2> Controller Layout </h2>
+		<p> The game accommodates external controllers but has only been tested with XBox controllers by developers and playtesters.
+		Additionally, two keyboard control schemes are available.</p>
+		<p> Default controls: </p>
+		<table>
+			<tr>
+				<td><b>Input Type</b></td>
+				<td><b>Keyboard 1</b></td>
+				<td><b>Keyboard 2</b></td>
+				<td><b>Controller</b></td>
+			</tr>
+			<tr>
+				<td><b>Up</b></td>
+				<td>Up Arrow</td>
+				<td>W</td>
+				<td>D-Pad Up</td>
+			</tr>
+			<tr>
+				<td><b>Down</b></td>
+				<td>Down Arrow</td>
+				<td>S</td>
+				<td>D-Pad Down</td>
+			</tr>
+			<tr>
+				<td><b>Left</b></td>
+				<td>Left Arrow</td>
+				<td>A</td>
+				<td>D-Pad Left</td>
+			</tr>
+			<tr>
+				<td><b>Right</b></td>
+				<td>Right Arrow</td>
+				<td>D</td>
+				<td>D-Pad Right</td>
+			</tr>
+			<tr>
+				<td><b>Dash/Roll</b></td>
+				<td>L</td>
+				<td>F</td>
+				<td>Right Trigger</td>
+			</tr>
+			<tr>
+				<td><b>Light Attack (A)</b></td>
+				<td>B</td>
+				<td>Z</td>
+				<td>Button West</td>
+			</tr>
+			<tr>
+				<td><b>Medium Attack (B)</b></td>
+				<td>N</td>
+				<td>X</td>
+				<td>Button North</td>
+			</tr>
+			<tr>
+				<td><b>Heavy Attack (C)</b></td>
+				<td>M</td>
+				<td>C</td>
+				<td>Button East</td>
+			</tr>
+			<tr>
+				<td><b>Special Attack (D)</b></td>
+				<td>O</td>
+				<td>T</td>
+				<td>Left Trigger</td>
+			</tr>
+			<tr>
+				<td><b>Parry</b></td>
+				<td>,</td>
+				<td>V</td>
+				<td>Button South</td>
+			</tr>
+			<tr>
+				<td><b>Pause</b></td>
+				<td>P</td>
+				<td>R</td>
+				<td>Start</td>
+			</tr>
+		</table>
+		<p> Controls can be changed in game to suit the player's preferences. </p>
+		<p style="color: #ffffff"> Before you complain about how weird the keyboard controls are, they were necessary for two player testing. </p>
+		
+		<h2> Commands </h2>
+		<h3> Normal Attacks (A/B/C) </h3>
+		<p> 
+		Basic attacks that are performed with the attacking buttons.
+		Knowing their variable speeds, ranges and applications is the key to victory.
+		They can be strung together for high damaging combos.
+		</p>
+		<h3> Comand Normals (direction + A/B/C) </h3>		
+		<p> 
+		A normal attack that requires the player to input an attack button in conjunction with a direction. 
+		Some are shared by all characters, such as anti-air (→ + A) and overhead (→ + C).
+		Others are unique to the character, such as Nora's standing low attack "Toe Stepper" (→ + B).
+		</p>
+		<h3> Special Moves (direction + D) </h3>
+		<p>
+		Strong attacks that enhance a character's versatility, damage output, survivability, or all at once.
+		They are performed by pressing the special attack button with a directional input.
+		While strong, they typically require mana to execute deplete the player's mana reserves.
+		</p>
+		<h3> Super Moves (A/B/C + D) </h3>
+		<p> 
+		Extremely powerful attacks that consume 50% of a super bar.
+		Performed by pressing an attack button (A/B/C)
+		It's best to keep track of both meters in order to not get surprised by one and take massive damage.
+		</p>
+		<h3> Dash </h3>
+		<p> 
+		An easy way to quickly gain horizontal distance, on ground or in the air.
+		They are useful for screen traversal, aggressively approaches, capitalizing on an opponent's mistakes and even combo extensions.
+		Depending on the character's abilities, their ground dash may be replaced by a run, increasing their horizontal moving speed.
+		Be careful not to use them too much, as they deplete the player's stamina meter, increasing the chances of a Guard Break.
+		</p>
+		<h3> Roll </h3>
+		<p> 
+		Some characters can execute a roll by pressing the dash button while crouching, allowing them to evade high attacks and pass through the enemy.		
+		</p>
+		<h3> Blocking </h3>
+		<p> 
+		Enemy attacks can be guarded against by holding the movement button that is opposite to them.
+		High/low attacks additionally require the defender to choose between blocking while standing and crouching.
+		Blocking depletes the player's stamina by an insignificant amount, but should they let it deplete completely they will suffer a Guard Break.
+		</p>
+		<h3> Throw (direction + A + B) </h3>
+		<p> 
+		To counter enemies who overly rely on blocking, you can grab them using the attack buttons (A) and (B).
+		Other player has a short window of time to input their own grab and nullify the attack.
+		Depending on the direction being held by the initiator, they might perform a forward or back throw.
+		</p>
+		<h3> Parry </h3>
+		<p> 
+		Allows players to enter a parrying stance when pressing the Parry button, initiating a parry if they are attacked in the state.
+		</p>
+		<h3> Burst (Dash + A) </h3>
+		<p> 
+		A defensive mechanic that allows players to escape combos as long as their designated Burst meter is filled.
+		Once it has been used, the meter will fill up again over the course of the round.
+		</p>
+		<h3> Use Items (Parry + A/B/C/D) </h3>
+		<p> 
+		If the player has collected any perishable items between rounds (signified in blue), they can use them by pressing the parry button and an attack button.
+		The attack button needed to be pressed depends on which slot the item is in, with items in the first slot being used with Parry + (A), second with Parry + (B), etc.
+		</p>
+		
+		<h1> Game Elements </h1>
+		<h3> Timer </h3>
+		<p>
+		From the beginning of a round, it counts down until it reaches zero, awarding the player with the higher amount of health by then with the victory.
+		</p>
+		<h3> Health Bar </h3>
+		<p>
+		A visual representation of the player's remaining health. As it drains, the player becomes closer to defeat.
+		</p>	
+		<h3> Mana Bar </h3>
+		<p>
+		A visual representation of the player's remaining mana, the resource that allows players to utilize special moves.
+		</p>	
+		<h3> Stamina Bar </h3>
+		<p>
+		A visual representation of the player's remaining stamina, the resource that allows players to use movement techniques and block incoming attacks.
+		</p>		
+		<h3> Super Bar </h3>
+		<p>
+		A visual representation of the player's remaining super meter, the resource that allows players to use dangerous super moves.
+		Half a bar is required to use them.
+		</p>	
+		<h3> Items </h3>
+		<p>
+		Should the players choose to enable them, items can be collected between rounds that provide a spectrum of benefits.
+		Passive items provide benefits automatically throughout the game, slightly increasing their potential.
+		Perishable items are used by the player to gain immediate, severe buffs that can turn the tide of battle.
+		</p>
+		<h3> Item Display </h3>
+		<p>
+		A series of panels that displays what items the player has collected between rounds, should they choose to enable them.
+		Passive items are represented in yellow while perishable items are represented in blue.
+		</p>		
+		<h3> Parrying </h3>
+		<p> 
+		By entering the parry state before being hit by the attack, the player will take no damage and recover in a short amount of time.
+		If timed extremely precisely, they will initiate a Perfect Parry and recover in an even shorter amount of time.
+		</p>
+		<h3> Guard Break </h3>
+		<p>
+		When a player blocks an attack with no stamina remaining, they will be stunned for a short while.
+		To prevent this, players must be wise with how they manage their stamina.
+		</p>
+		
+		<h1> Modes </h1>
+		<p> For the current build of the game, only Versus and Training modes are enabled. Planned modes in the future include an Arcade mode and single-player adventure mode.</p>
+		<h3> Versus </h3>
+		<p> Fight against another player locally in one-on-one battles. 
+		Currently, the only character that can be selected is Nora.
+		If enabled, players will be able to select items to use in the next round. </p>
+		<h3> Training </h3>
+		<p> Practice your combos and movement abilities against a stationary opponent with regenerating health.</p>
+	</div>
+	<div class="footer">
+		<div style = "width: 30%; min-width: 150px; margin-left: 0;">
+			<img src="images/hithubGamesLogo.png" class="footerLogo">
+			<a href = "https://discord.com/invite/n3fZPPRfg5" target="blank"> <img src="images/socialMediaIcons/logo_discord.png" class="footerSocialMediaIcon"> </a> 
+			<a href = "https://twitter.com/Queenslayergame" target="blank"> <img src="images/socialMediaIcons/logo_x.png" class="footerSocialMediaIcon"> </a> 
+		</div>
+	</div>
+	
   </body>
 </html>
